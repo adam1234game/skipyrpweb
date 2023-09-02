@@ -1,0 +1,148 @@
+/* félkövér szöveg */
+.text_bold{
+    font-weight: bold !important;
+    color: #ff7520;
+}
+
+.nav-link{
+    color: #ff62009a !important;
+    font-weight: bold !important;
+}
+
+.nav-link:hover{
+    color: #ff7520 !important;
+}
+
+.no-marg{
+    margin: 0 auto;
+    padding: 0;
+}
+
+*{
+    scroll-behavior: smooth;
+}
+
+/* BG  */
+
+.bg-dark{
+    background-color: #111111 !important;
+    color: white;
+    border: none;
+}
+
+.text-srp{
+    color: #ff7520;
+    font-weight: bold;
+}
+
+.bg-lidark{
+    background-color: #1a1c1d !important;
+    color: white;
+}
+
+.bg-srpdiv{
+    background-color: #ff7520 !important;
+    border-color: #ff7520 !important;
+    color: white !important;
+    border-radius: 0.8rem;
+}
+
+.bg-srp{
+    background-color: #ff7520;
+    border-color: #ff7520;
+    color: white;
+    border-radius: 0.8rem;
+}
+
+.bg-srp:hover{
+    background-color: #000000;
+    border-color: #ff7520;
+    color: #ff7520;
+    transition: 0.6s !important;
+}
+
+/* DEV Osztályok */
+.dev-div1{
+    background-color: aqua;
+}
+
+.dev-div2{
+    background-color: blue;
+}
+
+.dev-div3{
+    background-color: hotpink;
+}
+
+.card{
+    width: 19rem;
+    margin: 0.5rem;
+}
+
+.div-cent{
+    margin: 2rem auto;
+    justify-content: center;
+}
+
+.kiemel{
+    font-weight: bold;
+    color: #ff7520;
+}
+
+.card-cr{
+    width: 38rem;
+    margin: 0 auto;
+}
+
+.jus-div{
+    justify-content: center;
+    margin: 0;
+}
+
+.h-div{
+    width: fit-content;
+    padding: 5rem;
+}
+
+.h-c{
+    background-image: url(./background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-darktr{
+    background-color: rgba(24, 24, 24, 0.795);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+footer{
+    margin-top: 5rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.hir-con{
+    width: 39rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+h6{
+    text-align: end;
+}
+
+.active{
+    color: #662902 !important;
+}
+
+.dv{
+    align-items: center;
+}
+
+footer{
+    position: static;
+    bottom: 0%;
+    left: 0;
+}
